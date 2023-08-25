@@ -38,11 +38,13 @@ const boardEl = document.getElementById("board");
 //stampo i numeri
 for (let i = 1; i <= 100; i++) {
   console.log(i);
+  const card = document.createElement("div");
 
   let number = i;
   if (number % 3 == 0 && number % 5 == 0) {
       //Altrimenti se il numero è divisibile sia per 3 sia per 5 scrivo fizzbuzz
     number = "FizzBuzz";
+    
 } else if (number % 3 == 0) {
       //Se il numero è divisibile per 3 scrivo fizz
     number = "Fizz";
@@ -51,13 +53,10 @@ for (let i = 1; i <= 100; i++) {
     number = "Buzz";
   }
   console.log(number);
-  
-  // B1
-  const card = document.createElement("div");
+  card.classList.add("cardNumber");
   card.append(number);
   boardEl.append(card);
 }
-
 
 
 
