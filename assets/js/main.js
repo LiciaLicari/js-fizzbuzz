@@ -49,7 +49,7 @@ for (let i = 1; i <= 100; i++) {
       //Se il numero è divisibile per 3 scrivo fizz
     number = "Fizz";
   } else if (number % 5 == 0) {
-      //Altrimenti se il umero è divisibile per 5 scrivo buzz
+      //Altrimenti se il numero è divisibile per 5 scrivo buzz
     number = "Buzz";
   }
   console.log(number);

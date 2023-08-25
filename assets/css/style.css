@@ -5,10 +5,10 @@
 }
 
 .cardNumber {
-  width: 85px;
-  height: 85px;
-  background-color: hotpink;
-  color: palegoldenrod;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 40, 148);
+  color: #faf5a9;
   display: flex;
   justify-content: center;
   align-items: center;
